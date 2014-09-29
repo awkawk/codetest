@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ToolBar from ARIA Best Practices</title>
+</head>
+
+<body>
+
+<div role="toolbar" tabindex="0" id="customToolbar" 
+      onkeydown="return optionKeyEvent(event);"
+      onkeypress="return optionKeyEvent(event);"
+      onblur="hideFocus()"
+      onfocus="showFocus()"
+      > 
+      <img src="images/home.tiff" tabindex="0" title="Home" 
+           role="button" id="b1" alt="Home" 
+           onClick="updateText('Home was invoked');">
+      <img src="images/refresh.tiff" tabindex="-1" title="Refresh" 
+           role="button" id="b2" alt="Refresh" 
+           onClick="updateText('Refresh was invoked');">
+     <img src="images/help.tiff" tabindex="-1" title="Help" 
+           role="button" id="b3" alt="Help" 
+           onClick="updateText('Help was invoked');"> 
+</div> 
+</body>
+</html>

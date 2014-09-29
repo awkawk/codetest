@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<h1>Create new account</h1>
+<form>
+ <div id="required_form">
+  <label for="username">E-mail address:</label>
+  <input id="username" type=email required name=mail>
+ <div>
+  <label for="password1">Password:</label>
+  <input id="password1" type=password required name=pass>
+ <div>
+  <label for="password2">Confirm password:</label>
+  <input id="password2" type=password onforminput="setCustomValidity(value != password1.value ? 'Passwords do not match.' : '')">
+ <div>
+  <input type=submit value="Create account">
+</form>
+
+</body>
+</html>

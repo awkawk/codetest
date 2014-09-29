@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Required Delivery Details Form</title>
+
+<style type="text/css">
+
+input {
+	float:right;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Required Delivery Details Form</h1>
+<form id=”a11y_delivery”>
+<fieldset>
+<legend>A little about you</legend>
+
+<label for="title">Title</label>
+<input id="title" type="text" name="title" size="4">
+
+</p>
+
+<p >
+<label for="first_name">Your First Name [Required]:</label>
+
+<input id="firstname" type="text" name="firstname" size="20" aria-required="true">
+</p>
+
+
+<p>
+<label for="last_name">Your Last Name [Required]:</label>
+<input id="lastname" type="text" name="lastname" size="20" aria-required="true"></p>
+
+
+
+<p>
+<label for="email">Email [Required]:</label>
+
+<input id="email" type="text" name="email" size="20" aria-required="true">
+</p>
+
+
+
+<p>
+<label for="homephone">Home Phone [Required]:</label>
+
+<input id="homephone" type="text" name="homephone" size="20" aria-required="true">
+</p>
+
+
+<p>
+<label for="workphone">Work Phone:</label>
+<input id="workphone" type="text" name="workphone" size="20">
+</p>
+
+</fieldset>
+
+<fieldset>
+<legend> A little about where we are going</legend>
+
+<p>
+<label for="address1">Your Address Line 1 [Required]: </label></p>
+<input id="address1" type="textarea" name="address1" size="20" aria-required="true">
+</p>
+
+<p>
+<label for="address2">Your Address Line 2 [Required]:</label></p>
+
+<input id="address2" type="textarea" name="address2" size="20" aria-required="true">
+</p>
+</fieldset>
+<input type="button" value="Submit to Deliver">
+</form>
+</body>
+</html>

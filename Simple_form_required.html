@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Training Simple Tables #2</title>
+</head>
+
+<body>
+<table width="50%" border="0" cellspacing="0" cellpadding="4">
+<tr bgcolor="#CCff33">
+<td>
+<th><h1 align="left">Required Delivery Details Form</h1></th>
+</td>
+</tr>
+<td>
+<p align="right"><label for="title">Title</label></p>
+</td>
+<td>
+<input id="title" type="text" name="title" size="4">
+</td>
+</tr>
+<td>
+<p align="right" ><label for="first_name">Your First Name [Required]</label></p>
+</td>
+<td>
+<input id="firstname" type="text" name="firstname" size="20" aria-required="true">
+</td>
+</tr>
+<tr>
+<td>
+<p align="right"><label for="last_name">Your Last Name [Required]</label></p>
+</td>
+<td>
+<input id="lastname" type="text" name="lastname" size="20" aria-required="true">
+</td>
+</tr>
+<tr>
+<td>
+<p align="right"><label for="email">Email [Required]</label></p>
+</td>
+<td>
+<input id="email" type="text" name="email" size="20" aria-required="true">
+</td>
+</tr>
+<tr>
+<td>
+<p align="right"><label for="hphone">Home Phone [Required]</label></p>
+</td>
+<td>
+<input id="homephone" type="text" name="homephone" size="20" aria-required="true">
+</td>
+</tr>
+<tr>
+<td>
+<p align="right"><label for="wphone">Work Phone</label></p>
+</td>
+<td>
+<input id="workphone" type="text" name="workphone" size="20">
+</td>
+</tr>
+<tr>
+<td>
+<p align="right"><label for="address1">Your Address:1 [Required] </label></p>
+</td>
+<td>
+<input id="address1" type="textarea" name="address1" size="20" aria-required="true">
+</td>
+</tr>
+<tr>
+<td>
+<p align="right"><label for="address2">Your Address:2 [Required]</label></p>
+</td>
+<td>
+<input id="address2" type="textarea" name="address2" size="20" aria-required="true">
+</td>
+</tr>
+<td>
+<fieldset>
+<legend>Delivery Type</legend> <br />
+<input id="fed" type="radio" name="delivery type" value="Fed Ex">
+<label for="fed">Fed Ex</label><br />
+<input id="courier" type="radio" name="delivery type" value="Courier">
+<label for="courier">Courier</label><br />
+<input id="post" type="radio" name="delivery type" value="Postal">
+<label for="post">Postal Service</label><br />
+</fieldset></td>
+<td>
+<fieldset>
+<legend>Tracking Options</legend> <br />
+<input id="email" type="checkbox" name="email" value="checkbox">
+<label for="email"> Notify me via email </label><br />
+<input id="sms" type="checkbox" name="sms" value="checkbox">
+<label for="sms">Notify me via SMS  </label><br />
+<input id="phone" type="checkbox" name="phone" value="checkbox">
+<label for="t1">Notify me via Phone</label>
+</fieldset>
+<tr>
+<td>
+
+<input type="submit" value="Add your details">
+</td>
+</tr>
+</table>
+</form>
+
+</body>
+</html>
